@@ -1,0 +1,14 @@
+<div class="title">
+  <h2>Produtos</h2>
+  <div class="bottom-line"></div>
+  <p>Veja alguns produtos que temos disponíveis!</p>
+</div>
+<div class="main">
+  <app-produto
+    *ngFor="let produto of produtos; trackBy: trackBy"
+    [titulo]="produto.titulo"
+    [categoria]="produto.categoria"
+    [nomeImg]="produto.nomeImg"
+  >
+  </app-produto>
+</div>

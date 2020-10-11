@@ -33,6 +33,9 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/styles"]
+            },
             "scripts": []
           },
           "configurations": {
@@ -126,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "eudora"
+    }
+  },
+  "defaultProject": "eudora",
+  "cli": {
+    "analytics": "6d59aebc-0072-46fb-b9df-c78f187cc825"
+  }
 }

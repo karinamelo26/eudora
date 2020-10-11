@@ -1,0 +1,25 @@
+@import 'variables';
+.content {
+  text-align: center;
+  padding-top: 20%;
+
+  h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}
+.home {
+  margin-top: 22rem;
+  color: #000;
+  .specials {
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+
+    .iconb {
+      color: $main-color;
+      padding-bottom: 0.4rem;
+    }
+  }
+}

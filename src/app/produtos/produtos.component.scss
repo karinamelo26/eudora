@@ -1,0 +1,30 @@
+@import 'variables';
+:host {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  border-top: 3px solid $main-color;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  .title {
+    margin-bottom: 2rem;
+    h2 {
+      text-align: center;
+      padding-bottom: 0.5rem;
+    }
+    .bottom-line {
+      height: 3px;
+      width: 3rem;
+      background: $main-color;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+  }
+}

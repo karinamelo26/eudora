@@ -1,0 +1,638 @@
+$icomoon-font-family: 'icon-beauty' !default;
+$icomoon-font-path: '/assets/fonts' !default;
+
+$b-aztec-necklace: '\e900';
+$b-bathroom-tube: '\e901';
+$b-beautician: '\e902';
+$b-beauty-salon: '\e903';
+$b-big-diamond: '\e904';
+$b-big-hairpin: '\e905';
+$b-big-hand-bag: '\e906';
+$b-big-lips: '\e907';
+$b-big-mustache: '\e908';
+$b-botox: '\e909';
+$b-bowl-with-spoon: '\e90a';
+$b-circular-sunglasses: '\e90b';
+$b-closed-envelope-with-white-circle: '\e90c';
+$b-closed-scissors: '\e90d';
+$b-cosmetics-products: '\e90e';
+$b-cosmetic-tools: '\e90f';
+$b-cowgirl-hat: '\e910';
+$b-curler: '\e911';
+$b-curling-hair: '\e912';
+$b-dark-pants: '\e913';
+$b-diamond-ring: '\e914';
+$b-disposable-razor: '\e915';
+$b-electric-hairdryer: '\e916';
+$b-electric-shaver: '\e917';
+$b-electric-shaver-1: '\e918';
+$b-epilator: '\e919';
+$b-excersive-bike: '\e91a';
+$b-face-cream: '\e91b';
+$b-flanges-mascara: '\e91c';
+$b-gemstone: '\e91d';
+$b-gift-box-with-lace: '\e91e';
+$b-hair-brush: '\e91f';
+$b-hair-clipper: '\e920';
+$b-hairdresser-scissors: '\e921';
+$b-hairpin: '\e922';
+$b-hair-spray-bottle: '\e923';
+$b-hand-brush: '\e924';
+$b-hand-cream: '\e925';
+$b-hand-mirror: '\e926';
+$b-hanger-with-towel: '\e927';
+$b-high-heels: '\e928';
+$b-iron-for-hair: '\e929';
+$b-long-dress: '\e92a';
+$b-lotion-bottle: '\e92b';
+$b-luxury-watch: '\e92c';
+$b-makeup-brush: '\e92d';
+$b-make-up-brush: '\e92e';
+$b-makeup-case: '\e92f';
+$b-makeup-case-1: '\e930';
+$b-makeup-chest: '\e931';
+$b-make-up-mirror: '\e932';
+$b-manicure: '\e933';
+$b-martini-glass-with-straw: '\e934';
+$b-men-comb: '\e935';
+$b-modern-haicut: '\e936';
+$b-mudpack: '\e937';
+$b-nail-polish: '\e938';
+$b-nail-polish-1: '\e939';
+$b-opened-black-umbrella: '\e93a';
+$b-open-fan: '\e93b';
+$b-open-razor: '\e93c';
+$b-pair-of-sneakers: '\e93d';
+$b-perfume-bottle: '\e93e';
+$b-pocket-mirror: '\e93f';
+$b-powder: '\e940';
+$b-powder-and-mirror: '\e941';
+$b-rosary: '\e942';
+$b-round-perfume-bottle: '\e943';
+$b-scales-with-forty-kilograms: '\e944';
+$b-shave-blade: '\e945';
+$b-short-skirt: '\e946';
+$b-shower-with-drops: '\e947';
+$b-soap-and-bubbles: '\e948';
+$b-soap-for-hands: '\e949';
+$b-solarium: '\e94a';
+$b-spa-stones: '\e94b';
+$b-spray-bottle: '\e94c';
+$b-suit-on-hanger: '\e94d';
+$b-sun-and-deck-chair: '\e94e';
+$b-swimming-pool-with-ladder: '\e94f';
+$b-thick-brush: '\e950';
+$b-thin-comb: '\e951';
+$b-tie-tied: '\e952';
+$b-tongs: '\e953';
+$b-tooth-paste-and-brush: '\e954';
+$b-towel-with-hanger: '\e955';
+$b-treatment-chair: '\e956';
+$b-two-earrings: '\e957';
+$b-two-hairpins: '\e958';
+$b-two-lighting-candles: '\e959';
+$b-two-pieces-swimsuit: '\e95a';
+$b-two-side-comb: '\e95b';
+$b-vintage-woman-hat: '\e95c';
+$b-wedding-bow-tie: '\e95d';
+$b-weightlift: '\e95e';
+$b-women-comb: '\e95f';
+$b-women-handbag: '\e960';
+$b-women-hells: '\e961';
+$b-women-lipstick: '\e962';
+$b-wooden-hairpin: '\e963';
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?suvkc8');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?suvkc8#iefix')
+      format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?suvkc8')
+      format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?suvkc8')
+      format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?suvkc8##{$icomoon-font-family}')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.iconb {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  // speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &.x2 {
+    font-size: 2.5rem;
+  }
+}
+
+.b-aztec-necklace {
+  &:before {
+    content: $b-aztec-necklace;
+  }
+}
+.b-bathroom-tube {
+  &:before {
+    content: $b-bathroom-tube;
+  }
+}
+.b-beautician {
+  &:before {
+    content: $b-beautician;
+  }
+}
+.b-beauty-salon {
+  &:before {
+    content: $b-beauty-salon;
+  }
+}
+.b-big-diamond {
+  &:before {
+    content: $b-big-diamond;
+  }
+}
+.b-big-hairpin {
+  &:before {
+    content: $b-big-hairpin;
+  }
+}
+.b-big-hand-bag {
+  &:before {
+    content: $b-big-hand-bag;
+  }
+}
+.b-big-lips {
+  &:before {
+    content: $b-big-lips;
+  }
+}
+.b-big-mustache {
+  &:before {
+    content: $b-big-mustache;
+  }
+}
+.b-botox {
+  &:before {
+    content: $b-botox;
+  }
+}
+.b-bowl-with-spoon {
+  &:before {
+    content: $b-bowl-with-spoon;
+  }
+}
+.b-circular-sunglasses {
+  &:before {
+    content: $b-circular-sunglasses;
+  }
+}
+.b-closed-envelope-with-white-circle {
+  &:before {
+    content: $b-closed-envelope-with-white-circle;
+  }
+}
+.b-closed-scissors {
+  &:before {
+    content: $b-closed-scissors;
+  }
+}
+.b-cosmetics-products {
+  &:before {
+    content: $b-cosmetics-products;
+  }
+}
+.b-cosmetic-tools {
+  &:before {
+    content: $b-cosmetic-tools;
+  }
+}
+.b-cowgirl-hat {
+  &:before {
+    content: $b-cowgirl-hat;
+  }
+}
+.b-curler {
+  &:before {
+    content: $b-curler;
+  }
+}
+.b-curling-hair {
+  &:before {
+    content: $b-curling-hair;
+  }
+}
+.b-dark-pants {
+  &:before {
+    content: $b-dark-pants;
+  }
+}
+.b-diamond-ring {
+  &:before {
+    content: $b-diamond-ring;
+  }
+}
+.b-disposable-razor {
+  &:before {
+    content: $b-disposable-razor;
+  }
+}
+.b-electric-hairdryer {
+  &:before {
+    content: $b-electric-hairdryer;
+  }
+}
+.b-electric-shaver {
+  &:before {
+    content: $b-electric-shaver;
+  }
+}
+.b-electric-shaver-1 {
+  &:before {
+    content: $b-electric-shaver-1;
+  }
+}
+.b-epilator {
+  &:before {
+    content: $b-epilator;
+  }
+}
+.b-excersive-bike {
+  &:before {
+    content: $b-excersive-bike;
+  }
+}
+.b-face-cream {
+  &:before {
+    content: $b-face-cream;
+  }
+}
+.b-flanges-mascara {
+  &:before {
+    content: $b-flanges-mascara;
+  }
+}
+.b-gemstone {
+  &:before {
+    content: $b-gemstone;
+  }
+}
+.b-gift-box-with-lace {
+  &:before {
+    content: $b-gift-box-with-lace;
+  }
+}
+.b-hair-brush {
+  &:before {
+    content: $b-hair-brush;
+  }
+}
+.b-hair-clipper {
+  &:before {
+    content: $b-hair-clipper;
+  }
+}
+.b-hairdresser-scissors {
+  &:before {
+    content: $b-hairdresser-scissors;
+  }
+}
+.b-hairpin {
+  &:before {
+    content: $b-hairpin;
+  }
+}
+.b-hair-spray-bottle {
+  &:before {
+    content: $b-hair-spray-bottle;
+  }
+}
+.b-hand-brush {
+  &:before {
+    content: $b-hand-brush;
+  }
+}
+.b-hand-cream {
+  &:before {
+    content: $b-hand-cream;
+  }
+}
+.b-hand-mirror {
+  &:before {
+    content: $b-hand-mirror;
+  }
+}
+.b-hanger-with-towel {
+  &:before {
+    content: $b-hanger-with-towel;
+  }
+}
+.b-high-heels {
+  &:before {
+    content: $b-high-heels;
+  }
+}
+.b-iron-for-hair {
+  &:before {
+    content: $b-iron-for-hair;
+  }
+}
+.b-long-dress {
+  &:before {
+    content: $b-long-dress;
+  }
+}
+.b-lotion-bottle {
+  &:before {
+    content: $b-lotion-bottle;
+  }
+}
+.b-luxury-watch {
+  &:before {
+    content: $b-luxury-watch;
+  }
+}
+.b-makeup-brush {
+  &:before {
+    content: $b-makeup-brush;
+  }
+}
+.b-make-up-brush {
+  &:before {
+    content: $b-make-up-brush;
+  }
+}
+.b-makeup-case {
+  &:before {
+    content: $b-makeup-case;
+  }
+}
+.b-makeup-case-1 {
+  &:before {
+    content: $b-makeup-case-1;
+  }
+}
+.b-makeup-chest {
+  &:before {
+    content: $b-makeup-chest;
+  }
+}
+.b-make-up-mirror {
+  &:before {
+    content: $b-make-up-mirror;
+  }
+}
+.b-manicure {
+  &:before {
+    content: $b-manicure;
+  }
+}
+.b-martini-glass-with-straw {
+  &:before {
+    content: $b-martini-glass-with-straw;
+  }
+}
+.b-men-comb {
+  &:before {
+    content: $b-men-comb;
+  }
+}
+.b-modern-haicut {
+  &:before {
+    content: $b-modern-haicut;
+  }
+}
+.b-mudpack {
+  &:before {
+    content: $b-mudpack;
+  }
+}
+.b-nail-polish {
+  &:before {
+    content: $b-nail-polish;
+  }
+}
+.b-nail-polish-1 {
+  &:before {
+    content: $b-nail-polish-1;
+  }
+}
+.b-opened-black-umbrella {
+  &:before {
+    content: $b-opened-black-umbrella;
+  }
+}
+.b-open-fan {
+  &:before {
+    content: $b-open-fan;
+  }
+}
+.b-open-razor {
+  &:before {
+    content: $b-open-razor;
+  }
+}
+.b-pair-of-sneakers {
+  &:before {
+    content: $b-pair-of-sneakers;
+  }
+}
+.b-perfume-bottle {
+  &:before {
+    content: $b-perfume-bottle;
+  }
+}
+.b-pocket-mirror {
+  &:before {
+    content: $b-pocket-mirror;
+  }
+}
+.b-powder {
+  &:before {
+    content: $b-powder;
+  }
+}
+.b-powder-and-mirror {
+  &:before {
+    content: $b-powder-and-mirror;
+  }
+}
+.b-rosary {
+  &:before {
+    content: $b-rosary;
+  }
+}
+.b-round-perfume-bottle {
+  &:before {
+    content: $b-round-perfume-bottle;
+  }
+}
+.b-scales-with-forty-kilograms {
+  &:before {
+    content: $b-scales-with-forty-kilograms;
+  }
+}
+.b-shave-blade {
+  &:before {
+    content: $b-shave-blade;
+  }
+}
+.b-short-skirt {
+  &:before {
+    content: $b-short-skirt;
+  }
+}
+.b-shower-with-drops {
+  &:before {
+    content: $b-shower-with-drops;
+  }
+}
+.b-soap-and-bubbles {
+  &:before {
+    content: $b-soap-and-bubbles;
+  }
+}
+.b-soap-for-hands {
+  &:before {
+    content: $b-soap-for-hands;
+  }
+}
+.b-solarium {
+  &:before {
+    content: $b-solarium;
+  }
+}
+.b-spa-stones {
+  &:before {
+    content: $b-spa-stones;
+  }
+}
+.b-spray-bottle {
+  &:before {
+    content: $b-spray-bottle;
+  }
+}
+.b-suit-on-hanger {
+  &:before {
+    content: $b-suit-on-hanger;
+  }
+}
+.b-sun-and-deck-chair {
+  &:before {
+    content: $b-sun-and-deck-chair;
+  }
+}
+.b-swimming-pool-with-ladder {
+  &:before {
+    content: $b-swimming-pool-with-ladder;
+  }
+}
+.b-thick-brush {
+  &:before {
+    content: $b-thick-brush;
+  }
+}
+.b-thin-comb {
+  &:before {
+    content: $b-thin-comb;
+  }
+}
+.b-tie-tied {
+  &:before {
+    content: $b-tie-tied;
+  }
+}
+.b-tongs {
+  &:before {
+    content: $b-tongs;
+  }
+}
+.b-tooth-paste-and-brush {
+  &:before {
+    content: $b-tooth-paste-and-brush;
+  }
+}
+.b-towel-with-hanger {
+  &:before {
+    content: $b-towel-with-hanger;
+  }
+}
+.b-treatment-chair {
+  &:before {
+    content: $b-treatment-chair;
+  }
+}
+.b-two-earrings {
+  &:before {
+    content: $b-two-earrings;
+  }
+}
+.b-two-hairpins {
+  &:before {
+    content: $b-two-hairpins;
+  }
+}
+.b-two-lighting-candles {
+  &:before {
+    content: $b-two-lighting-candles;
+  }
+}
+.b-two-pieces-swimsuit {
+  &:before {
+    content: $b-two-pieces-swimsuit;
+  }
+}
+.b-two-side-comb {
+  &:before {
+    content: $b-two-side-comb;
+  }
+}
+.b-vintage-woman-hat {
+  &:before {
+    content: $b-vintage-woman-hat;
+  }
+}
+.b-wedding-bow-tie {
+  &:before {
+    content: $b-wedding-bow-tie;
+  }
+}
+.b-weightlift {
+  &:before {
+    content: $b-weightlift;
+  }
+}
+.b-women-comb {
+  &:before {
+    content: $b-women-comb;
+  }
+}
+.b-women-handbag {
+  &:before {
+    content: $b-women-handbag;
+  }
+}
+.b-women-hells {
+  &:before {
+    content: $b-women-hells;
+  }
+}
+.b-women-lipstick {
+  &:before {
+    content: $b-women-lipstick;
+  }
+}
+.b-wooden-hairpin {
+  &:before {
+    content: $b-wooden-hairpin;
+  }
+}
